@@ -80,7 +80,7 @@ int main(void) {
   printf("From First-fit algo, ID: %d\n", first_fit_id);
   printf("From Best-fit algo, ID: %d\n", best_fit_id);
   printf("From Worst-fit algo, ID: %d\n", worst_fit_id);
-
+  
   // Freeing memory
   free(free_block1);
   free(free_block2);
